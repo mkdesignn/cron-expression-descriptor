@@ -1,26 +1,17 @@
 <?php
-/**
- * Cron Expression Descriptor
- *
- * @link      https://github.com/panlatent/cron-expression-descriptor
- * @copyright Copyright (c) 2019 panlatent@gmail.com
- */
 
-namespace Panlatent\CronExpressionDescriptor;
+namespace Mkdesignn\CronExpressionDescriptor;
 
 use DateTime;
 use Exception;
-use Panlatent\CronExpressionDescriptor\Enums\CronTimeUnitsEnum;
-use Panlatent\CronExpressionDescriptor\Exceptions\ExpressionException;
-use Panlatent\CronExpressionDescriptor\Utils\ArrayUtils;
-use Panlatent\CronExpressionDescriptor\Utils\StringUtils;
+use Mkdesignn\CronExpressionDescriptor\Enums\CronTimeUnitsEnum;
+use Mkdesignn\CronExpressionDescriptor\Exceptions\ExpressionException;
+use Mkdesignn\CronExpressionDescriptor\Utils\ArrayUtils;
+use Mkdesignn\CronExpressionDescriptor\Utils\StringUtils;
 
 /**
  * Class ExpressionParser
  *
- * @package Panlatent\CronExpressionDescriptor
- * @author  Panlatent <panlatent@gmail.com>
- * @author  CaliforniaMountainSnake <CaliforniaMountainSnake1@yandex.ru>
  */
 class ExpressionParser
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Panlatent\CronExpressionDescriptor\Utils;
+namespace Mkdesignn\CronExpressionDescriptor\Utils;
 
-use Panlatent\CronExpressionDescriptor\Enums\CronTimeUnitsEnum;
+use Mkdesignn\CronExpressionDescriptor\Enums\CronTimeUnitsEnum;
 
 trait ArrayUtils
 {

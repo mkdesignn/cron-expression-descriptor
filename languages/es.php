@@ -1,10 +1,4 @@
 <?php
-/**
- * Cron Expression Descriptor
- *
- * @link      https://github.com/panlatent/cron-expression-descriptor
- * @copyright Copyright (c) 2019 panlatent@gmail.com
- */
 
 return [
     'AnErrorOccuredWhenGeneratingTheExpressionD' => 'Ocurrió un error mientras se generaba la descripción de la expresión. Revise la sintaxis de la expresión de cron.',

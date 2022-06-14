@@ -1,12 +1,6 @@
 <?php
-/**
- * Cron Expression Descriptor
- *
- * @link      https://github.com/panlatent/cron-expression-descriptor
- * @copyright Copyright (c) 2019 panlatent@gmail.com
- */
 
-namespace Panlatent\CronExpressionDescriptor\Exceptions;
+namespace Mkdesignn\CronExpressionDescriptor\Exceptions;
 
 use Exception;
 

@@ -1,13 +1,7 @@
 <?php
-/**
- * Cron Expression Descriptor
- *
- * @link      https://github.com/panlatent/cron-expression-descriptor
- * @copyright Copyright (c) 2019 panlatent@gmail.com
- */
 
-use Panlatent\CronExpressionDescriptor\Exceptions\ExpressionException;
-use Panlatent\CronExpressionDescriptor\ExpressionParser;
+use Mkdesignn\CronExpressionDescriptor\Exceptions\ExpressionException;
+use Mkdesignn\CronExpressionDescriptor\ExpressionParser;
 use PHPUnit\Framework\TestCase;
 
 class ExpressionParserTest extends TestCase

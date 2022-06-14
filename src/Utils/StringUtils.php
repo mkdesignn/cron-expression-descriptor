@@ -1,6 +1,6 @@
 <?php
 
-namespace Panlatent\CronExpressionDescriptor\Utils;
+namespace Mkdesignn\CronExpressionDescriptor\Utils;
 
 trait StringUtils
 {
@@ -9,7 +9,6 @@ trait StringUtils
      * @param array|string|null $specialCharacters
      *
      * @return bool
-     * @author Panlatent <panlatent@gmail.com>
      */
     public function stringContains(string $string, $specialCharacters): bool
     {

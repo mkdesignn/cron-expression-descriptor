@@ -1,17 +1,13 @@
 {
-    "name": "panlatent/cron-expression-descriptor",
+    "name": "mkdesignn/cron-expression-translator",
     "description": "Converts cron expressions into human readable descriptions.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Panlatent",
-            "email": "panlatent@gmail.com"
+            "name": "Mohammad",
+            "email": "mohammad.kaab@gmail.com"
         },
-        {
-            "name": "CaliforniaMountainSnake",
-            "email": "CaliforniaMountainSnake1@yandex.ru"
-        }
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -30,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Panlatent\\CronExpressionDescriptor\\": "src/"
+            "Mkdesignn\\CronExpressionDescriptor\\": "src/"
         }
     },
     "extra": {

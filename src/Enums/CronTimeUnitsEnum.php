@@ -1,6 +1,6 @@
 <?php
 
-namespace Panlatent\CronExpressionDescriptor\Enums;
+namespace Mkdesignn\CronExpressionDescriptor\Enums;
 
 use MyCLabs\Enum\Enum;
 
