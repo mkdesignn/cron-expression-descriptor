@@ -57,6 +57,11 @@ class ExpressionDescriptor
      */
     private $intl;
 
+    /**
+     * @var string
+     */
+    private $languageFile;
+
     // Public Methods
     // =========================================================================
 
@@ -70,7 +75,7 @@ class ExpressionDescriptor
      *
      * @throws ExpressionException
      */
-    public function __construct($expression, string $locale = 'en_US', bool $isUse24HourTimeFormat = false, bool $fallback = true)
+    public function __construct($expression, string $locale = 'en_US', $languageFile = null, bool $isUse24HourTimeFormat = false, bool $fallback = true)
     {
         if ($expression instanceof ExpressionParser) {
             [$second, $minute, $hour, $day, $month, $week, $year] = $expression->parse();
@@ -88,6 +93,7 @@ class ExpressionDescriptor
         $this->language = str_replace('_', '-', $locale);
         $this->fallback = $fallback;
         $this->intl = extension_loaded('intl');
+        $this->languageFile = $languageFile;
     }
 
     /**
@@ -714,6 +720,10 @@ class ExpressionDescriptor
      */
     private function load(string $language)
     {
+        if($this->languageFile){
+            return $this->languageFile;
+        }
+
         $file = dirname(__DIR__) . '/languages/' . $language . '.php';
         if (is_file($file)) {
             return require $file;
