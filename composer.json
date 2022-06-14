@@ -7,7 +7,7 @@
         {
             "name": "Mohammad",
             "email": "mohammad.kaab@gmail.com"
-        },
+        }
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
