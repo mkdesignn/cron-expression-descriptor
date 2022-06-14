@@ -1,5 +1,5 @@
 {
-    "name": "mkdesignn/cron-expression-translator",
+    "name": "mkdesignn/cron-expression-descriptor",
     "description": "Converts cron expressions into human readable descriptions.",
     "type": "library",
     "license": "MIT",
